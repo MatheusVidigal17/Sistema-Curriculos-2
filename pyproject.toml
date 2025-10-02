@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sistema-curriculos"
+version = "0.1.0"
+description = "MVP para geração de currículos"
+authors = ["Seu Nome <email@exemplo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.0"
+flask-sqlalchemy = "^3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
